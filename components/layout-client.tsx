@@ -32,43 +32,18 @@ type TickerItem = {
   change: string;
 };
 
+type TickerResponse = {
+  items: TickerItem[];
+};
+
 const StockTicker = () => {
   const [stocks, setStocks] = useState<TickerItem[]>([]);
 
   useEffect(() => {
     const fetchListings = async () => {
       try {
-        const res = await axios.get(
-          "https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
-          {
-            headers: {
-              "X-CMC_PRO_API_KEY": process.env.API_KEY_STOCKS,
-            },
-          },
-        );
-        const listings = Array.isArray(res.data?.data) ? res.data.data : [];
-        const items = listings.slice(0, 10).map((item: any) => {
-          const price = Number(item?.quote?.USD?.price ?? NaN);
-          const changeValue = Number(item?.quote?.USD?.percent_change_24h ?? NaN);
-
-          const formattedPrice = Number.isFinite(price)
-            ? price.toLocaleString("en-US", {
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 2,
-              })
-            : "N/A";
-
-          const formattedChange = Number.isFinite(changeValue)
-            ? `${changeValue >= 0 ? "+" : ""}${changeValue.toFixed(2)}%`
-            : "0.00%";
-
-          return {
-            symbol: item?.symbol ?? "N/A",
-            price: formattedPrice,
-            change: formattedChange,
-          } as TickerItem;
-        });
-
+        const res = await axios.get<TickerResponse>("/api/ticker");
+        const items = Array.isArray(res.data?.items) ? res.data.items : [];
         setStocks(items);
       } catch (error) {
         console.error("Failed to fetch cryptocurrency listings", error);
