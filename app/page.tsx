@@ -106,13 +106,13 @@ export default function Home() {
     });
     const [submitted, setSubmitted] = useState(false);
   
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault();
       setSubmitted(true);
       setTimeout(() => setSubmitted(false), 5000);
     };
   
-    const handleChange = (field, value) => {
+    const handleChange = (field: string, value: string) => {
       setFormData(prev => ({ ...prev, [field]: value }));
     };
   
