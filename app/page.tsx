@@ -106,21 +106,31 @@ export default function Home() {
     });
     const [submitted, setSubmitted] = useState(false);
   
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-      e.preventDefault();
-      setSubmitted(true);
-      setTimeout(() => setSubmitted(false), 5000);
-    };
+const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setSubmitted(true);
+    // In a real application, you'd send the form data to a server here.
+    // For this example, we just simulate success after a delay.
+    setTimeout(() => {
+      setSubmitted(false);
+      setFormData({
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
+      });
+    }, 5000);
+  };
   
     const handleChange = (field: string, value: string) => {
       setFormData(prev => ({ ...prev, [field]: value }));
     };
   
-    const socialLinks = [
+  const socialLinks = [
       {
         name: "Instagram",
         icon: Instagram,
-        url: "https://www.instagram.com/faast.amu",
+        url: "https://www.instagram.com/amu_faast_official/",
         handle: "@faast.amu",
         color: "from-pink-500 to-purple-600"
       },
@@ -137,14 +147,14 @@ export default function Home() {
       {
         icon: Mail,
         title: "Email Us",
-        value: "faast@amu.ac.in",
-        link: "mailto:faast@amu.ac.in"
+        value: "amu.faast.official@gmail.com",
+        link: "mailto:amu.faast.official@gmail.com"
       },
       {
         icon: Phone,
         title: "Call Us",
-        value: "+91 XXXXX XXXXX",
-        link: "tel:+91XXXXXXXXXX"
+        value: "+91 76518 46537",
+        link: "tel:+91 76518 46537"
       },
       {
         icon: MapPin,
@@ -687,25 +697,56 @@ export default function Home() {
           </section>
     
           {/* Map/Location Section */}
-          <section className="py-20 bg-[#0a1f3c]/30">
-            <div className="container mx-auto px-4">
-              <div className="max-w-4xl mx-auto text-center glass-panel rounded-2xl p-12">
-                <MapPin className="w-16 h-16 mx-auto mb-6 text-cyan-400" />
-                <h2 className="text-3xl font-bold mb-4">Visit Our Campus</h2>
-                <p className="text-xl text-gray-300 mb-6">
-                  Find us at Aligarh Muslim University, one of India&apos;s premier educational institutions
-                </p>
-                <p className="text-gray-400 mb-8">
-                  Aligarh Muslim University<br />
-                  Aligarh, Uttar Pradesh 202002<br />
-                  India
-                </p>
-                <Button variant="outline" className="border-cyan-500 text-cyan-400 hover:bg-cyan-500/10">
-                  Get Directions
-                </Button>
-              </div>
-            </div>
-          </section>
+         <section className="py-20 bg-[#0a1f3c]/30">
+                 <div className="container mx-auto px-4">
+                   <div className="max-w-6xl mx-auto">
+                     <div className="text-center mb-12">
+                       <MapPin className="w-16 h-16 mx-auto mb-6 text-cyan-400" />
+                       <h2 className="text-4xl font-bold mb-4">
+                         Find Us on the Map <span className="text-gradient">🗺</span>
+                       </h2>
+                       <p className="text-xl text-gray-300 mb-2">
+                         Visit us at Aligarh Muslim University
+                       </p>
+                       <p className="text-gray-400">
+                         Aligarh Muslim University<br />
+                         Aligarh, Uttar Pradesh 202002<br />
+                         India
+                       </p>
+                     </div>
+         
+                     {/* Google Map Embed */}
+                     <div className="glass-panel rounded-2xl p-4 hover:glow-cyan transition-all">
+                       <div className="relative w-full h-[450px] rounded-xl overflow-hidden shadow-2xl">
+                         <iframe
+                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14201.742689654789!2d78.08204!3d27.89786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974a5d3e117d6a9%3A0x6fccdc5766d0e9e5!2sAligarh%20Muslim%20University!5e0!3m2!1sen!2sin!4v1234567890"
+                           width="100%"
+                           height="100%"
+                           style={{ border: 0 }}
+                           allowFullScreen=""
+                           loading="lazy"
+                           referrerPolicy="no-referrer-when-downgrade"
+                           className="rounded-xl"
+                           title="Aligarh Muslim University Location"
+                         />
+                       </div>
+                     </div>
+         
+                     <div className="text-center mt-8">
+                       <a
+                         href="https://maps.app.goo.gl/bpZXxao3Hw7vi9iv7"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                       >
+                         <Button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white">
+                           <MapPin className="mr-2" size={20} />
+                           Open in Google Maps
+                         </Button>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+               </section>
         </div>
 
     </div>
