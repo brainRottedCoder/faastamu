@@ -10,6 +10,7 @@ import { Mail, MapPin, Phone, Instagram, Linkedin, Send, MessageSquare, External
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import ParticleBackground from "@/components/ParticleBackground";
 
 // Premium Finance-Themed Animated Background with 3D Crypto Elements
 const AnimatedBackground = () => {
@@ -492,21 +493,19 @@ const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
             
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
-                Founded at Aligarh Muslim University, FAAST emerged from a simple idea: students 
-                passionate about finance and technology deserve a platform to learn, collaborate, 
-                and innovate together.
+                Founded at Aligarh Muslim University, FAAST emerged from a simple idea that students passionate about finance and technology deserve a platform to learn, collaborate, and innovate together.
+
               </p>
               
               <p>
-                What started as a small group of enthusiasts has grown into AMU most dynamic 
-                FinTech community, with over 200 active members, multiple successful projects, 
-                and numerous competition wins including the prestigious IEEE Game Jam.
+               What began as a small group of enthusiasts has grown into AMU’s most dynamic FinTech community, with over 200 participants, multiple ongoing projects, and real case study work strengthening our practical understanding of modern finance.
+
+FAAST is now an interdisciplinary club, bringing together students from engineering, business studies, commerce, management, law, economics, statistics, and others. This diverse mix of talent allows us to explore financial innovation from every perspective.
+
               </p>
               
               <p>
-                Today, FAAST operates through four specialized teams—Quant & Crypto, Research & 
-                Analytics, Stocks & Trade, and PR & Events—each contributing to our mission of 
-                creating well-rounded FinTech professionals.
+                Today, we operate through five specialized teams: Quant and Crypto, Research and Analytics, Stocks and Trade, Case Studies and Business Strategy, and PR and Events. Together, these teams work toward our mission of developing well rounded and future ready FinTech professionals.
               </p>
               
               <div className="glass-panel rounded-xl p-6 border border-cyan-500/30 mt-8">
