@@ -106,7 +106,7 @@ export default function Teams() {
               Meet Our <span className="text-gradient">Teams</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Four specialized divisions working together to build the future of FinTech at AMU
+              Five specialized divisions working together to build the future of FinTech at AMU
             </p>
           </div>
         </div>
