@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
   Menu,
@@ -223,7 +224,9 @@ export default function LayoutClient({ children }: { children: React.ReactNode }
       >
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            <Link href="/" className="logo-container group" />
+            <Link href="/" className="logo-wrapper group" aria-label="FAAST Home">
+              <Image src="/logo_faast.jpg" alt="FAAST Logo" width={140} height={48} priority />
+            </Link>
 
             <nav className="hidden lg:flex items-center gap-8">
               {navigationItems.map((item) => (
