@@ -84,7 +84,7 @@ export default function JoinUs() {
                   <p className="text-gray-400">Follow us on social media for updates:</p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
-                      href="https://www.instagram.com/faast.amu"
+                      href="https://www.instagram.com/amu_faast_official/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-3 px-6 py-3 rounded-xl glass-panel hover:scale-105 hover:glow-cyan transition-all group"

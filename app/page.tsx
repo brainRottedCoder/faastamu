@@ -220,7 +220,7 @@ const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
               Build, trade, analyze, and innovate with the best minds in FinTech.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row  mb-4 gap-4 justify-center">
               <Link href="/joinus">
                 <Button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white border-0 text-lg px-8 py-6 glow-cyan">
                   Join FAAST Now
