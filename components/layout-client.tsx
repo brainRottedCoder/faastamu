@@ -173,7 +173,7 @@ export default function LayoutClient({ children }: { children: React.ReactNode }
           position: relative;
           display: inline-flex;
           align-items: center;
-          padding: 8px 16px;
+          padding: 0;
           border-radius: 12px;
           background: linear-gradient(135deg, rgba(10, 31, 60, 0.6), rgba(0, 229, 255, 0.05));
           border: 1px solid rgba(0, 229, 255, 0.2);
@@ -188,6 +188,7 @@ export default function LayoutClient({ children }: { children: React.ReactNode }
         }
 
         .logo-wrapper img {
+          display: block;
           height: 48px;
           width: auto;
           object-fit: contain;
