@@ -95,7 +95,7 @@ export default function Projects() {
             title="FAAST QuantForge"
             icon={TrendingUp}
             iconColor="text-purple-400"
-            description="A systematic trading platform comparing two strategies: Leverage-Based Strategy and SMA Crossover Strategy, with backtesting capabilities and performance metrics against market benchmarks."
+            description="A systematic trading platform that compares multiple strategies such as the Leverage Based Strategy, SMA Crossover Strategy, and others, with full backtesting capabilities and performance metrics evaluated against market benchmarks."
             tags={["Quantitative Finance", "Algorithmic Trading", "Backtesting"]}
             links={[
               { label: "Strategy 1", url: "https://colab.research.google.com/drive/11KZTnD4KXM90X_0GjxbCFawgGjF2Pj4_?usp=sharing" },
