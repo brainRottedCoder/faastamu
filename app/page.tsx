@@ -392,6 +392,7 @@ const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         </div>
       </section>
        <div className="min-h-screen">
+        
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 matrix-bg opacity-20" />
