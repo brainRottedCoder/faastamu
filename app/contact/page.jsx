@@ -102,7 +102,7 @@ export default function Contact() {
                 <span className="text-gradient">Follow Us</span> on Social Media
               </h2>
               <p className="text-gray-400 mb-6">
-                We'd love to connect — reach out to us through our social handles.
+                We would love to connect — reach out to us through our social handles.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
