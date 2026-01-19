@@ -61,7 +61,7 @@ export default function Events() {
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="text-blue-400 font-medium">📍 Venue:</span>
-                      <span className="text-gray-300">TPO Auditorium, ZHCET, AMU</span>
+                      <span className="text-gray-300">NL-25,NL-Block, ZHCET, AMU</span>
                     </div>
                   </div>
 
