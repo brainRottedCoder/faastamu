@@ -1,5 +1,5 @@
 import React from "react";
-import { Calendar, Sparkles } from "lucide-react";
+import { Calendar, Sparkles, TrendingUp, Code, Trophy, Briefcase, Users, Lightbulb } from "lucide-react";
 
 export default function Events() {
   return (
@@ -29,6 +29,171 @@ export default function Events() {
             <h2 className="text-3xl font-bold mb-8 text-center">
               <span className="text-gradient">Upcoming & Past Events</span>
             </h2>
+
+            {/* Financial Decision-Making Workshop Event */}
+            <div className="glass-panel rounded-2xl p-8 mb-8 relative overflow-hidden border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300">
+              <div className="absolute -top-4 -right-4 w-32 h-32 bg-blue-500/5 rounded-full blur-3xl" />
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-green-500/20 border border-green-500/30">
+                <span className="text-green-400 text-xs font-semibold">UPCOMING</span>
+              </div>
+
+              <div className="flex flex-col md:flex-row gap-6 relative z-10">
+                <div className="md:w-1/3">
+                  <div className="aspect-w-16 aspect-h-9 bg-gradient-to-br from-blue-500/10 to-cyan-600/10 rounded-xl p-6 flex items-center justify-center">
+                    <TrendingUp className="text-blue-400 w-16 h-16" />
+                  </div>
+                </div>
+
+                <div className="md:w-2/3">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 mb-3">
+                    <span className="text-blue-400 text-sm font-medium">Workshop</span>
+                  </div>
+
+                  <h3 className="text-2xl font-bold mb-2">Financial Decision-Making Workshop</h3>
+                  <p className="text-gray-300 mb-4">
+                    One-day hands-on workshop on real-world financial decision-making. Connects core finance concepts with practical analysis and strategy. Uses data-driven tools, quizzes, and guided case studies.
+                  </p>
+
+                  <div className="mb-4">
+                    <h4 className="text-blue-400 font-medium mb-2 text-sm">Vision:</h4>
+                    <ul className="list-disc list-inside text-gray-300 text-sm space-y-1">
+                      <li>Understand financial systems, markets, and strategic risk management.</li>
+                      <li>Gain hands-on skills in ML-based analysis and problem-solving.</li>
+                      <li>Learn trading psychology, ethics, and career pathways in finance.</li>
+                    </ul>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-sm">
+                    <div className="flex items-center gap-2">
+                      <span className="text-blue-400 font-medium">📅 Date:</span>
+                      <span className="text-gray-300">25 Jan, 2026</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-blue-400 font-medium">⏰ Time:</span>
+                      <span className="text-gray-300">10:00am - 5:00pm</span>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap gap-2 mt-4">
+                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Financial Systems</span>
+                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Data Science</span>
+                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Trading Logic</span>
+                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Psychology & Ethics</span>
+                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Case Analysis</span>
+                  </div>
+
+                  <a
+                    href="https://drive.google.com/file/d/1v1vnYzQQtXvFq4F6bKXrLx6Q9dx35ILA/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 mt-6 text-blue-400 hover:text-blue-300 transition-colors group"
+                  >
+                    <span className="font-medium">View Workshop Details (PDF)</span>
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Case Study Competition Event */}
+            <div className="glass-panel rounded-2xl p-8 mb-8 relative overflow-hidden border border-pink-500/20 hover:border-pink-500/40 transition-all duration-300">
+              <div className="absolute -top-4 -right-4 w-32 h-32 bg-pink-500/5 rounded-full blur-3xl" />
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-green-500/20 border border-green-500/30">
+                <span className="text-green-400 text-xs font-semibold">UPCOMING</span>
+              </div>
+
+              <div className="flex flex-col md:flex-row gap-6 relative z-10">
+                <div className="md:w-1/3">
+                  <div className="aspect-w-16 aspect-h-9 bg-gradient-to-br from-pink-500/10 to-rose-600/10 rounded-xl p-6 flex items-center justify-center">
+                    <Briefcase className="text-pink-400 w-16 h-16" />
+                  </div>
+                </div>
+
+                <div className="md:w-2/3">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pink-500/10 border border-pink-500/20 mb-3">
+                    <span className="text-pink-400 text-sm font-medium">Competition</span>
+                  </div>
+
+                  <h3 className="text-2xl font-bold mb-2">Case Study Competition</h3>
+                  <p className="text-gray-300 mb-4">
+                    Solve a challenging finance/tech case study with clear, practical solutions. Showcase your problem-solving skills and innovative thinking.
+                  </p>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div className="glass-panel p-3 rounded-lg border border-pink-500/10 bg-pink-500/5">
+                      <h4 className="text-pink-400 font-medium mb-1 text-sm">Format</h4>
+                      <ul className="text-gray-300 text-sm space-y-1">
+                        <li>• Round 1: 3-4 slide solution deck</li>
+                        <li>• Round 2: Live presentation & Q&A</li>
+                      </ul>
+                    </div>
+                    <div className="glass-panel p-3 rounded-lg border border-pink-500/10 bg-pink-500/5">
+                      <h4 className="text-pink-400 font-medium mb-1 text-sm">Evaluation</h4>
+                      <ul className="text-gray-300 text-sm space-y-1">
+                        <li>• Problem Understanding (20%)</li>
+                        <li>• Analysis Depth (25%)</li>
+                        <li>• Feasibility (20%) & Innovation (15%)</li>
+                        <li>• Presentation & Q&A (20%)</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-sm">
+                    <div className="flex items-center gap-2">
+                      <span className="text-pink-400 font-medium">📅 Rounds:</span>
+                      <span className="text-gray-300">Jan 26-28 (Live/Online)</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-pink-400 font-medium">📝 Register:</span>
+                      <span className="text-gray-300">Jan 12-25</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-pink-400 font-medium">💰 Fee:</span>
+                      <span className="text-gray-300">₹99 per member</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-pink-400 font-medium">📜 Perk:</span>
+                      <span className="text-gray-300">Certificate for All</span>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap gap-4 mb-4 border-t border-pink-500/10 pt-4">
+                    <div>
+                      <span className="text-pink-400 font-bold block text-lg">₹1250</span>
+                      <span className="text-gray-400 text-xs">1st Prize</span>
+                    </div>
+                    <div>
+                      <span className="text-gray-300 font-bold block text-lg">₹750</span>
+                      <span className="text-gray-400 text-xs">2nd Prize</span>
+                    </div>
+                    <div>
+                      <span className="text-gray-300 font-bold block text-lg">Commendation</span>
+                      <span className="text-gray-400 text-xs">3rd Prize</span>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    <span className="px-3 py-1 rounded-full bg-pink-500/10 text-pink-400 text-sm">Strategy</span>
+                    <span className="px-3 py-1 rounded-full bg-pink-500/10 text-pink-400 text-sm">Innovation</span>
+                    <span className="px-3 py-1 rounded-full bg-pink-500/10 text-pink-400 text-sm">Problem Solving</span>
+                  </div>
+
+                  <a
+                    href="https://drive.google.com/file/d/1v1vnYzQQtXvFq4F6bKXrLx6Q9dx35ILA/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 mt-6 text-pink-400 hover:text-pink-300 transition-colors group"
+                  >
+                    <span className="font-medium">View Competition Details (PDF)</span>
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
 
             {/* FAAST Research Competition Event */}
             <div className="glass-panel rounded-2xl p-8 mb-8 relative overflow-hidden border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300">
@@ -91,6 +256,104 @@ export default function Events() {
                     className="inline-flex items-center gap-2 mt-6 text-purple-400 hover:text-purple-300 transition-colors group"
                   >
                     <span className="font-medium">View Competition Details (PDF)</span>
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* FAASTHON Fintech Hackathon Event */}
+            <div className="glass-panel rounded-2xl p-8 mb-8 relative overflow-hidden border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300">
+              <div className="absolute -top-4 -right-4 w-32 h-32 bg-orange-500/5 rounded-full blur-3xl" />
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-green-500/20 border border-green-500/30">
+                <span className="text-green-400 text-xs font-semibold">UPCOMING</span>
+              </div>
+
+              <div className="flex flex-col md:flex-row gap-6 relative z-10">
+                <div className="md:w-1/3">
+                  <div className="aspect-w-16 aspect-h-9 bg-gradient-to-br from-orange-500/10 to-red-600/10 rounded-xl p-6 flex items-center justify-center">
+                    <Code className="text-orange-400 w-16 h-16" />
+                  </div>
+                </div>
+
+                <div className="md:w-2/3">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 mb-3">
+                    <span className="text-orange-400 text-sm font-medium">Fintech Hackathon</span>
+                  </div>
+
+                  <h3 className="text-2xl font-bold mb-2">FAASTHON: Fintech Hackathon</h3>
+                  <p className="text-gray-300 mb-4">
+                    Strategy for backtesting on the given commodity/stock and testing it. The Dataset shall be revealed at the beginning of the event.
+                  </p>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div className="glass-panel p-3 rounded-lg border border-orange-500/10 bg-orange-500/5">
+                      <h4 className="text-orange-400 font-medium mb-1 text-sm">Format & Eligibility</h4>
+                      <ul className="text-gray-300 text-sm space-y-1">
+                        <li>• Duration: 48 hours</li>
+                        <li>• Team: 1-4 Members</li>
+                        <li>• Eligibility: Students</li>
+                      </ul>
+                    </div>
+                    <div className="glass-panel p-3 rounded-lg border border-orange-500/10 bg-orange-500/5">
+                      <h4 className="text-orange-400 font-medium mb-1 text-sm">Rules</h4>
+                      <ul className="text-gray-300 text-sm space-y-1">
+                        <li>• Use provided/public market data</li>
+                        <li>• Explain assumptions & methodology</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-sm">
+                    <div className="flex items-center gap-2">
+                      <span className="text-orange-400 font-medium">📅 Date:</span>
+                      <span className="text-gray-300">27-28 Jan 2026</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-orange-400 font-medium">🏆 1st Prize:</span>
+                      <span className="text-gray-300">₹1250</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-orange-400 font-medium">🥈 2nd Prize:</span>
+                      <span className="text-gray-300">₹750</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-orange-400 font-medium">📜 Perk:</span>
+                      <span className="text-gray-300">Certificate for All</span>
+                    </div>
+                  </div>
+
+                  <div className="mb-4">
+                    <h4 className="text-orange-400 font-medium mb-2 text-sm flex items-center gap-2">
+                      <Calendar size={16} /> Timeline
+                    </h4>
+                    <div className="space-y-2 text-sm text-gray-300">
+                      <div className="flex gap-2">
+                        <span className="text-gray-500 min-w-[60px]">Day 1:</span>
+                        <span>Problem statement & dataset released</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-gray-500 min-w-[60px]">Day 2:</span>
+                        <span>Winners Announced</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap gap-2 mt-4">
+                    <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-sm">Backtesting</span>
+                    <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-sm">Algorithmic Trading</span>
+                    <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-sm">Strategy</span>
+                  </div>
+
+                  <a
+                    href="https://drive.google.com/file/d/1v1vnYzQQtXvFq4F6bKXrLx6Q9dx35ILA/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 mt-6 text-orange-400 hover:text-orange-300 transition-colors group"
+                  >
+                    <span className="font-medium">View Hackathon Details (PDF)</span>
                     <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>
