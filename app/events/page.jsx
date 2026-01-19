@@ -30,7 +30,7 @@ export default function Events() {
               <span className="text-gradient">Upcoming & Past Events</span>
             </h2>
 
-            {/* Financial Decision-Making Workshop Event */}
+            {/* FINCRAFT Workshop Event */}
             <div className="glass-panel rounded-2xl p-8 mb-8 relative overflow-hidden border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300">
               <div className="absolute -top-4 -right-4 w-32 h-32 bg-blue-500/5 rounded-full blur-3xl" />
               <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-green-500/20 border border-green-500/30">
@@ -49,37 +49,45 @@ export default function Events() {
                     <span className="text-blue-400 text-sm font-medium">Workshop</span>
                   </div>
 
-                  <h3 className="text-2xl font-bold mb-2">Financial Decision-Making Workshop</h3>
+                  <h3 className="text-2xl font-bold mb-2">FINCRAFT Workshop – FAAST Week 2026</h3>
                   <p className="text-gray-300 mb-4">
-                    One-day hands-on workshop on real-world financial decision-making. Connects core finance concepts with practical analysis and strategy. Uses data-driven tools, quizzes, and guided case studies.
+                    FINCRAFT is a one-day hands-on workshop focused on real-world financial decision-making. The session connects core finance concepts with practical analysis through data-driven tools, guided case studies, and interactive learning.
                   </p>
-
-                  <div className="mb-4">
-                    <h4 className="text-blue-400 font-medium mb-2 text-sm">Vision:</h4>
-                    <ul className="list-disc list-inside text-gray-300 text-sm space-y-1">
-                      <li>Understand financial systems, markets, and strategic risk management.</li>
-                      <li>Gain hands-on skills in ML-based analysis and problem-solving.</li>
-                      <li>Learn trading psychology, ethics, and career pathways in finance.</li>
-                    </ul>
-                  </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-sm">
                     <div className="flex items-center gap-2">
-                      <span className="text-blue-400 font-medium">📅 Date:</span>
-                      <span className="text-gray-300">25 Jan, 2026</span>
+                      <span className="text-blue-400 font-medium">📅 Duration:</span>
+                      <span className="text-gray-300">One Day</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span className="text-blue-400 font-medium">⏰ Time:</span>
-                      <span className="text-gray-300">10:00am - 5:00pm</span>
+                      <span className="text-blue-400 font-medium">📍 Venue:</span>
+                      <span className="text-gray-300">TPO Auditorium, ZHCET, AMU</span>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div className="glass-panel p-3 rounded-lg border border-blue-500/10 bg-blue-500/5">
+                      <h4 className="text-blue-400 font-medium mb-1 text-sm">📚 What You'll Learn</h4>
+                      <ul className="text-gray-300 text-sm space-y-1">
+                        <li>• Financial systems, markets, and risk–return concepts</li>
+                        <li>• Financial, operational metrics and valuation basics</li>
+                        <li>• Case study approach, structuring, and presentation</li>
+                        <li>• Strategy building, basic backtesting, and analysis</li>
+                        <li>• Trading psychology, discipline, and ethics</li>
+                      </ul>
+                    </div>
+                    <div className="glass-panel p-3 rounded-lg border border-blue-500/10 bg-blue-500/5">
+                      <h4 className="text-blue-400 font-medium mb-1 text-sm">🛠️ Tools Used</h4>
+                      <p className="text-gray-300 text-sm">Python, analytics & ML libraries, data visualization, real market data</p>
                     </div>
                   </div>
 
                   <div className="flex flex-wrap gap-2 mt-4">
                     <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Financial Systems</span>
-                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Data Science</span>
-                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Trading Logic</span>
-                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Psychology & Ethics</span>
-                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Case Analysis</span>
+                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Case Studies</span>
+                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Trading Psychology</span>
+                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Python</span>
+                    <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">Data Visualization</span>
                   </div>
 
                   <a
@@ -283,33 +291,19 @@ export default function Events() {
                     <span className="text-orange-400 text-sm font-medium">Fintech Hackathon</span>
                   </div>
 
-                  <h3 className="text-2xl font-bold mb-2">FAASTHON: Fintech Hackathon</h3>
+                  <h3 className="text-2xl font-bold mb-2">FAASTHON – Fintech Hackathon | FAAST Week 2026</h3>
                   <p className="text-gray-300 mb-4">
-                    Strategy for backtesting on the given commodity/stock and testing it. The Dataset shall be revealed at the beginning of the event.
+                    Step into the world of quantitative finance and algorithmic trading at FAASTHON, a 48-hour fintech hackathon where participants transform real-world financial data into actionable trading strategies. Open to all bonafide UG & PG students of AMU.
                   </p>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                    <div className="glass-panel p-3 rounded-lg border border-orange-500/10 bg-orange-500/5">
-                      <h4 className="text-orange-400 font-medium mb-1 text-sm">Format & Eligibility</h4>
-                      <ul className="text-gray-300 text-sm space-y-1">
-                        <li>• Duration: 48 hours</li>
-                        <li>• Team: 1-4 Members</li>
-                        <li>• Eligibility: Students</li>
-                      </ul>
-                    </div>
-                    <div className="glass-panel p-3 rounded-lg border border-orange-500/10 bg-orange-500/5">
-                      <h4 className="text-orange-400 font-medium mb-1 text-sm">Rules</h4>
-                      <ul className="text-gray-300 text-sm space-y-1">
-                        <li>• Use provided/public market data</li>
-                        <li>• Explain assumptions & methodology</li>
-                      </ul>
-                    </div>
-                  </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-sm">
                     <div className="flex items-center gap-2">
-                      <span className="text-orange-400 font-medium">📅 Date:</span>
-                      <span className="text-gray-300">27-28 Jan 2026</span>
+                      <span className="text-orange-400 font-medium">📅 Duration:</span>
+                      <span className="text-gray-300">48 Hours</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-orange-400 font-medium">📍 Venue:</span>
+                      <span className="text-gray-300">TPO Auditorium, ZHCET, AMU</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="text-orange-400 font-medium">🏆 1st Prize:</span>
@@ -319,32 +313,41 @@ export default function Events() {
                       <span className="text-orange-400 font-medium">🥈 2nd Prize:</span>
                       <span className="text-gray-300">₹750</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className="text-orange-400 font-medium">📜 Perk:</span>
-                      <span className="text-gray-300">Certificate for All</span>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div className="glass-panel p-3 rounded-lg border border-orange-500/10 bg-orange-500/5">
+                      <h4 className="text-orange-400 font-medium mb-1 text-sm">What You Will Do</h4>
+                      <ul className="text-gray-300 text-sm space-y-1">
+                        <li>• Explore financial data and market behaviour</li>
+                        <li>• Build algorithmic trading models</li>
+                        <li>• Backtest strategies and analyse risk</li>
+                      </ul>
+                    </div>
+                    <div className="glass-panel p-3 rounded-lg border border-orange-500/10 bg-orange-500/5">
+                      <h4 className="text-orange-400 font-medium mb-1 text-sm">Problem Statement</h4>
+                      <p className="text-gray-300 text-sm">
+                        Design and backtest a trading strategy for a given stock or commodity. The dataset will be revealed at the beginning of the event.
+                      </p>
                     </div>
                   </div>
 
-                  <div className="mb-4">
-                    <h4 className="text-orange-400 font-medium mb-2 text-sm flex items-center gap-2">
-                      <Calendar size={16} /> Timeline
-                    </h4>
-                    <div className="space-y-2 text-sm text-gray-300">
-                      <div className="flex gap-2">
-                        <span className="text-gray-500 min-w-[60px]">Day 1:</span>
-                        <span>Problem statement & dataset released</span>
-                      </div>
-                      <div className="flex gap-2">
-                        <span className="text-gray-500 min-w-[60px]">Day 2:</span>
-                        <span>Winners Announced</span>
-                      </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div className="glass-panel p-3 rounded-lg border border-orange-500/10 bg-orange-500/5">
+                      <h4 className="text-orange-400 font-medium mb-1 text-sm">🛠️ Tools You May Use</h4>
+                      <p className="text-gray-300 text-sm">Python, Pine Script, Excel, R</p>
+                    </div>
+                    <div className="glass-panel p-3 rounded-lg border border-orange-500/10 bg-orange-500/5">
+                      <h4 className="text-orange-400 font-medium mb-1 text-sm">📊 Evaluation Criteria</h4>
+                      <p className="text-gray-300 text-sm">Strategy Performance, Analytical Insight, Innovation & Backtesting, Live Validation</p>
                     </div>
                   </div>
 
                   <div className="flex flex-wrap gap-2 mt-4">
-                    <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-sm">Backtesting</span>
                     <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-sm">Algorithmic Trading</span>
-                    <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-sm">Strategy</span>
+                    <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-sm">Backtesting</span>
+                    <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-sm">Quantitative Finance</span>
+                    <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-sm">Python</span>
                   </div>
 
                   <a

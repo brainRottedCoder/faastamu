@@ -10,6 +10,8 @@ import { Mail, MapPin, Phone, Instagram, Linkedin, Send, MessageSquare, External
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import ConfettiCelebration from "@/components/ConfettiCelebration";
+import RegistrationModal from "@/components/RegistrationModal";
 
 
 // Premium Finance-Themed Animated Background with 3D Crypto Elements
@@ -173,6 +175,15 @@ export default function Home() {
   ];
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#030712] via-[#0a1628] to-[#030712]">
+      {/* Confetti Celebration */}
+      <ConfettiCelebration duration={5000} />
+
+      {/* Registration Modal */}
+      <RegistrationModal
+        registrationLink="https://linktr.ee/FAAST.AMU"
+        delayMs={3000}
+      />
+
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <AnimatedBackground />

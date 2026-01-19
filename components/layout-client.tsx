@@ -12,10 +12,11 @@ import {
   Calendar,
   Briefcase,
   BookOpen,
- 
+
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import axios from "axios";
+import FloatingRegistrationButton from "@/components/FloatingRegistrationButton";
 const navigationItems = [
   { title: "Home", href: "/", icon: TrendingUp },
   // { title: "About", href: "/about", icon: Info },
@@ -219,9 +220,8 @@ export default function LayoutClient({ children }: { children: React.ReactNode }
 
       {/* Header */}
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled ? "glass-panel glow-cyan" : "bg-linear-to-b from-[#030712] to-transparent"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "glass-panel glow-cyan" : "bg-linear-to-b from-[#030712] to-transparent"
+          }`}
       >
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
@@ -234,9 +234,8 @@ export default function LayoutClient({ children }: { children: React.ReactNode }
                 <Link
                   key={item.title}
                   href={item.href}
-                  className={`nav-link text-sm font-medium hover:text-cyan-400 transition-colors ${
-                    pathname === item.href ? "active text-cyan-400" : ""
-                  }`}
+                  className={`nav-link text-sm font-medium hover:text-cyan-400 transition-colors ${pathname === item.href ? "active text-cyan-400" : ""
+                    }`}
                 >
                   {item.title}
                 </Link>
@@ -265,9 +264,8 @@ export default function LayoutClient({ children }: { children: React.ReactNode }
                 <Link
                   key={item.title}
                   href={item.href}
-                  className={`flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-cyan-500/10 transition-colors ${
-                    pathname === item.href ? "bg-cyan-500/20 text-cyan-400" : ""
-                  }`}
+                  className={`flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-cyan-500/10 transition-colors ${pathname === item.href ? "bg-cyan-500/20 text-cyan-400" : ""
+                    }`}
                 >
                   <item.icon size={20} />
                   {item.title}
@@ -362,6 +360,9 @@ export default function LayoutClient({ children }: { children: React.ReactNode }
           </div>
         </div>
       </footer>
+
+      {/* Floating FAAST Week Registration Button */}
+      <FloatingRegistrationButton registrationLink="https://linktr.ee/FAAST.AMU" />
     </div>
   );
 }
