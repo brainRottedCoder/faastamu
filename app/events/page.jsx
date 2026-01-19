@@ -1,5 +1,5 @@
 import React from "react";
-import { Calendar, Sparkles, TrendingUp, Code, Trophy, Briefcase, Users, Lightbulb } from "lucide-react";
+import { Calendar, Sparkles, TrendingUp, Code, Briefcase } from "lucide-react";
 
 export default function Events() {
   return (
@@ -67,7 +67,7 @@ export default function Events() {
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                     <div className="glass-panel p-3 rounded-lg border border-blue-500/10 bg-blue-500/5">
-                      <h4 className="text-blue-400 font-medium mb-1 text-sm">📚 What You'll Learn</h4>
+                      <h4 className="text-blue-400 font-medium mb-1 text-sm">📚 What You&apos;ll Learn</h4>
                       <ul className="text-gray-300 text-sm space-y-1">
                         <li>• Financial systems, markets, and risk–return concepts</li>
                         <li>• Financial, operational metrics and valuation basics</li>

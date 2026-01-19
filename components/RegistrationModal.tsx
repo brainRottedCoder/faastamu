@@ -14,22 +14,23 @@ export default function RegistrationModal({
     delayMs = 2000
 }: RegistrationModalProps) {
     const [isOpen, setIsOpen] = useState(false);
-    const [hasBeenDismissed, setHasBeenDismissed] = useState(false);
+    const [hasBeenDismissed, setHasBeenDismissed] = useState(() => {
+        // Check if user has already dismissed this modal in the session
+        if (typeof window !== "undefined") {
+            return sessionStorage.getItem("faast-modal-dismissed") === "true";
+        }
+        return false;
+    });
 
     useEffect(() => {
-        // Check if user has already dismissed this modal in the session
-        const dismissed = sessionStorage.getItem("faast-modal-dismissed");
-        if (dismissed) {
-            setHasBeenDismissed(true);
-            return;
-        }
+        if (hasBeenDismissed) return;
 
         const timeout = setTimeout(() => {
             setIsOpen(true);
         }, delayMs);
 
         return () => clearTimeout(timeout);
-    }, [delayMs]);
+    }, [delayMs, hasBeenDismissed]);
 
     const handleClose = () => {
         setIsOpen(false);
@@ -121,7 +122,7 @@ export default function RegistrationModal({
                         </div>
 
                         <p className="text-gray-500 text-sm mt-4">
-                            Don't miss out — limited slots available!
+                            Don&apos;t miss out — limited slots available!
                         </p>
                     </div>
                 </div>
