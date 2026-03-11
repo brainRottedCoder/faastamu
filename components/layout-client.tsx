@@ -16,7 +16,6 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import axios from "axios";
-import FloatingRegistrationButton from "@/components/FloatingRegistrationButton";
 const navigationItems = [
   { title: "Home", href: "/", icon: TrendingUp },
   // { title: "About", href: "/about", icon: Info },
@@ -360,9 +359,6 @@ export default function LayoutClient({ children }: { children: React.ReactNode }
           </div>
         </div>
       </footer>
-
-      {/* Floating FAAST Week Registration Button */}
-      <FloatingRegistrationButton registrationLink="https://linktr.ee/FAAST.AMU" />
     </div>
   );
 }

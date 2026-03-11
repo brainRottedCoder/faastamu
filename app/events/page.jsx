@@ -33,8 +33,8 @@ export default function Events() {
             {/* FINCRAFT Workshop Event */}
             <div className="glass-panel rounded-2xl p-8 mb-8 relative overflow-hidden border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300">
               <div className="absolute -top-4 -right-4 w-32 h-32 bg-blue-500/5 rounded-full blur-3xl" />
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-green-500/20 border border-green-500/30">
-                <span className="text-green-400 text-xs font-semibold">UPCOMING</span>
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gray-500/20 border border-gray-500/30">
+                <span className="text-gray-400 text-xs font-semibold">COMPLETED</span>
               </div>
 
               <div className="flex flex-col md:flex-row gap-6 relative z-10">
@@ -108,8 +108,8 @@ export default function Events() {
             {/* Case Study Competition Event */}
             <div className="glass-panel rounded-2xl p-8 mb-8 relative overflow-hidden border border-pink-500/20 hover:border-pink-500/40 transition-all duration-300">
               <div className="absolute -top-4 -right-4 w-32 h-32 bg-pink-500/5 rounded-full blur-3xl" />
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-green-500/20 border border-green-500/30">
-                <span className="text-green-400 text-xs font-semibold">UPCOMING</span>
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gray-500/20 border border-gray-500/30">
+                <span className="text-gray-400 text-xs font-semibold">COMPLETED</span>
               </div>
 
               <div className="flex flex-col md:flex-row gap-6 relative z-10">
@@ -206,8 +206,8 @@ export default function Events() {
             {/* FAAST Research Competition Event */}
             <div className="glass-panel rounded-2xl p-8 mb-8 relative overflow-hidden border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300">
               <div className="absolute -top-4 -right-4 w-32 h-32 bg-purple-500/5 rounded-full blur-3xl" />
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-green-500/20 border border-green-500/30">
-                <span className="text-green-400 text-xs font-semibold">UPCOMING</span>
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gray-500/20 border border-gray-500/30">
+                <span className="text-gray-400 text-xs font-semibold">COMPLETED</span>
               </div>
 
               <div className="flex flex-col md:flex-row gap-6 relative z-10">
@@ -275,8 +275,8 @@ export default function Events() {
             {/* FAASTHON Fintech Hackathon Event */}
             <div className="glass-panel rounded-2xl p-8 mb-8 relative overflow-hidden border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300">
               <div className="absolute -top-4 -right-4 w-32 h-32 bg-orange-500/5 rounded-full blur-3xl" />
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-green-500/20 border border-green-500/30">
-                <span className="text-green-400 text-xs font-semibold">UPCOMING</span>
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gray-500/20 border border-gray-500/30">
+                <span className="text-gray-400 text-xs font-semibold">COMPLETED</span>
               </div>
 
               <div className="flex flex-col md:flex-row gap-6 relative z-10">
