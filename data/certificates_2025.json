@@ -1,0 +1,330 @@
+[
+  {
+    "credentialId": "2025/001",
+    "year": 2025,
+    "name": "Suhaib Ahmad Khan",
+    "role": "Machine Learning & Research Team Lead",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/001.png"
+  },
+  {
+    "credentialId": "2025/002",
+    "year": 2025,
+    "name": "Gulam Mohd Khan",
+    "role": "Vice President",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/002.png"
+  },
+  {
+    "credentialId": "2025/003",
+    "year": 2025,
+    "name": "Ahad Ali",
+    "role": "Vice President",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/003.png"
+  },
+  {
+    "credentialId": "2025/004",
+    "year": 2025,
+    "name": "Prabal Varshney",
+    "role": "Secretary",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/004.png"
+  },
+  {
+    "credentialId": "2025/005",
+    "year": 2025,
+    "name": "Muhd Adnan Mohsin",
+    "role": "Secretary",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/005.png"
+  },
+  {
+    "credentialId": "2025/006",
+    "year": 2025,
+    "name": "Abdul Bari",
+    "role": "Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/006.png"
+  },
+  {
+    "credentialId": "2025/007",
+    "year": 2025,
+    "name": "Syed Hamza Rizvi",
+    "role": "Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/007.png"
+  },
+  {
+    "credentialId": "2025/008",
+    "year": 2025,
+    "name": "Ibrahim Usmani",
+    "role": "Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/008.png"
+  },
+  {
+    "credentialId": "2025/009",
+    "year": 2025,
+    "name": "Imtenan Ashraf",
+    "role": "Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/009.png"
+  },
+  {
+    "credentialId": "2025/010",
+    "year": 2025,
+    "name": "Prajwal Nagaich",
+    "role": "Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/010.png"
+  },
+  {
+    "credentialId": "2025/011",
+    "year": 2025,
+    "name": "Shubh Varshney",
+    "role": "Quant & Crypto Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/011.png"
+  },
+  {
+    "credentialId": "2025/012",
+    "year": 2025,
+    "name": "Dastagir Wasim Sheikh",
+    "role": "Quant & Crypto Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/012.png"
+  },
+  {
+    "credentialId": "2025/013",
+    "year": 2025,
+    "name": "Humra Aslam",
+    "role": "Quant & Crypto Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/013.png"
+  },
+  {
+    "credentialId": "2025/014",
+    "year": 2025,
+    "name": "Mohammad Sami",
+    "role": "Quant & Crypto Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/014.png"
+  },
+  {
+    "credentialId": "2025/015",
+    "year": 2025,
+    "name": "Sadia Peerzada",
+    "role": "Quant & Crypto Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/015.png"
+  },
+  {
+    "credentialId": "2025/016",
+    "year": 2025,
+    "name": "Shaurya Kulshreshtha",
+    "role": "Quant & Crypto Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/016.png"
+  },
+  {
+    "credentialId": "2025/017",
+    "year": 2025,
+    "name": "Nashrah",
+    "role": "PR & Networking Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/017.png"
+  },
+  {
+    "credentialId": "2025/018",
+    "year": 2025,
+    "name": "Mohammad Asad Mokarim",
+    "role": "PR & Networking Team Lead",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/018.png"
+  },
+  {
+    "credentialId": "2025/019",
+    "year": 2025,
+    "name": "Abdullah Ausaf",
+    "role": "PR & Networking Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/019.png"
+  },
+  {
+    "credentialId": "2025/020",
+    "year": 2025,
+    "name": "Ali Shaharyar Abbas",
+    "role": "PR & Networking Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/020.png"
+  },
+  {
+    "credentialId": "2025/021",
+    "year": 2025,
+    "name": "Jaffar Abbas Khan",
+    "role": "PR & Networking Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/021.png"
+  },
+  {
+    "credentialId": "2025/022",
+    "year": 2025,
+    "name": "Aaqid Anwer",
+    "role": "Case Study Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/022.png"
+  },
+  {
+    "credentialId": "2025/023",
+    "year": 2025,
+    "name": "Abdul Ahad",
+    "role": "Case Study Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/023.png"
+  },
+  {
+    "credentialId": "2025/024",
+    "year": 2025,
+    "name": "Abdullah Ayaz",
+    "role": "Case Study Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/024.png"
+  },
+  {
+    "credentialId": "2025/025",
+    "year": 2025,
+    "name": "Kulsoom",
+    "role": "Case Study Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/025.png"
+  },
+  {
+    "credentialId": "2025/026",
+    "year": 2025,
+    "name": "Nabila Khan",
+    "role": "Case Study Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/026.png"
+  },
+  {
+    "credentialId": "2025/027",
+    "year": 2025,
+    "name": "Rudra Aggarwal",
+    "role": "Case Study Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/027.png"
+  },
+  {
+    "credentialId": "2025/028",
+    "year": 2025,
+    "name": "Aatifa Rizvi",
+    "role": "Research Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/028.png"
+  },
+  {
+    "credentialId": "2025/029",
+    "year": 2025,
+    "name": "Maria Khan",
+    "role": "Research Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/029.png"
+  },
+  {
+    "credentialId": "2025/030",
+    "year": 2025,
+    "name": "Vansh Vyas",
+    "role": "Research Team Member",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/030.png"
+  },
+  {
+    "credentialId": "2025/031",
+    "year": 2025,
+    "name": "Abdullah Wasim",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/031.png"
+  },
+  {
+    "credentialId": "2025/032",
+    "year": 2025,
+    "name": "Alisha Hasan",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/032.png"
+  },
+  {
+    "credentialId": "2025/033",
+    "year": 2025,
+    "name": "Arsalan Kazmi",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/033.png"
+  },
+  {
+    "credentialId": "2025/034",
+    "year": 2025,
+    "name": "Azka Sohail",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/034.png"
+  },
+  {
+    "credentialId": "2025/035",
+    "year": 2025,
+    "name": "Mohammad Ajmal",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/035.png"
+  },
+  {
+    "credentialId": "2025/036",
+    "year": 2025,
+    "name": "Mohammad Anas Saeed",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/036.png"
+  },
+  {
+    "credentialId": "2025/037",
+    "year": 2025,
+    "name": "Mohd Arham",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/037.png"
+  },
+  {
+    "credentialId": "2025/038",
+    "year": 2025,
+    "name": "Mohd Arsalan Azam",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/038.png"
+  },
+  {
+    "credentialId": "2025/039",
+    "year": 2025,
+    "name": "Muskan Sheikh",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/039.png"
+  },
+  {
+    "credentialId": "2025/040",
+    "year": 2025,
+    "name": "Tanzeel Arshad",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/040.png"
+  },
+  {
+    "credentialId": "2025/041",
+    "year": 2025,
+    "name": "Yukti Maheshwari",
+    "role": "Volunteer",
+    "issuedOn": "17-08-2026",
+    "certificateImage": "/certificates/2025/041.png"
+  }
+]
